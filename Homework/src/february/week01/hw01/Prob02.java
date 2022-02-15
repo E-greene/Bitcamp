@@ -1,4 +1,4 @@
-package february.fridayhw.hw01;
+package february.week01.hw01;
 // 50이하의 소수 출력하기
 
 public class Prob02 {

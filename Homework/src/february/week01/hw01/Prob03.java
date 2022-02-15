@@ -1,4 +1,4 @@
-package february.fridayhw.hw01;
+package february.week01.hw01;
 // 입력값 받아 팩토리얼(!) 출력해주는 프로그램
 
 import java.util.Scanner;
