@@ -7,10 +7,14 @@ import java.util.Scanner;
 public class Prob01 {
     public static void main(String[] args) {
 
-        int num = Integer.parseInt(args[0]);
+        //int num = Integer.parseInt(args[0]);
+        Scanner scanner = new Scanner(System.in);
+
+        int num = scanner.nextInt();
 
         if(num<0 || num%2 == 0){
             System.out.println("0보다 큰 홀수만 입력 가능합니다.");
+            return;
         }
 
         for(int i=0; i<num/2+1; i++){
@@ -20,7 +24,7 @@ public class Prob01 {
             for(int j=0; j<num-2*i; j++){
                 System.out.print("*");
             }
-            System.out.println("\n");
+            System.out.print("\n");
         }
 
     }
